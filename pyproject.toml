@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "yeshuman-io"
+version = "0.1.0"
+description = ""
+authors = ["Daryl Antony <daryl@thunkin.ai>"]
+readme = "README.md"
+packages = [{include = "yeshuman"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
